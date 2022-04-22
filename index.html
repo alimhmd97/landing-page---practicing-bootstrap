@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,300;1,400;1,700;&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+   
+    <link rel="stylesheet" href="./css/finalproject.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <span class="position-absolute"> <link rel="stylesheet" href="./css/bootstrap.min.css"></span>
+        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>btsrp </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <section class="mynavbar ">
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fw-light fs-6">
+            <div class="container d-flex justify-content-between">
+                <div class="navbar-brand fw-bold fs-3  ">MOGO</div>
+          
+              </button>
+                <div class="collapse navbar-collapse ms-auto " id="navbarNav">
+                    <ul class="nav-items navbar-nav ms-auto ">
+                        <li class=" nav-item mx-3">
+                            <a class="nav-link active " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link " href="#">Features</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link " href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item mx-3 ">
+                            <a class="nav-link " href="#">Disabled</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link " onclick=changeToArabic() href="#"><i class="bi bi-badge-ar"></i></a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link " href="#" onclick=changeToEN()>En</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <i class=" nav-link  bi bi-bag-check"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselExampleCaptions " class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators justify-content-evenly">
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active mx-2 w-25 " aria-current="true" aria-label="Slide 1"></button>
+         
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2" class=" w-25  mx-2"></button>
+     
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3" class=" mx-2 w-25 text-left ">
+                </button>
+           
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4" class="w-25  mx-2"></button>
+            </div>
+            <div class="carousel-inner my-sm-1 ">
+                <div class="carousel-item active">
+                    <img src="./assets/overlay.png" class="opacit d-block w-100" alt="...">
+                    <div class="carousel-caption  car_inner_items">
+                        <h4>Creative Template</h4>
+                        <h1 class="ulSlider d-none d-lg-block ">WELCOME TO MOGO</h1>
+                        <button class="button-6  m-lg-4  p-1" role="button">learn more</button>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/overlay.png" class="opacit d-block w-100" alt="...">
+                    <div class="carousel-caption car_inner_items">
+                        <h4>Creative Template</h4>
+                        <h1 class="ulSlider d-none d-lg-block">WELCOME TO MOGO </h1>
+                        <button class="button-6 m-lg-4 p-1" role="button">learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/overlay.png" class="opacit d-block w-100" alt="...">
+                    <div class="carousel-caption  car_inner_items">
+                        <h4>Creative Template</h4>
+                        <h1 class="ulSlider d-none d-lg-block ">WELCOME TO MOGO </h1>
+                        <button class="button-6  m-lg-4 p-1" role="button">learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/overlay.png" class="opacit d-block w-100" alt="...">
+                    <div class="carousel-caption car_inner_items">
+                        <h4>Creative Template</h4>
+                        <h1 class="ulSlider d-none d-lg-block">WELCOME TO MOGO </h1>
+                        <button class="button-6  m-lg-4 p-1" role="button">Button </button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!-- about_us -->
+    <section class="about_us headind-mar-top">
+        <div class="container">
+            <div class="row">
+                <div class="about_us_holder text-center ">
+                    <h4>We Work With</h4>
+                    <h2 class="after_h2 my-3 fw-bold">STORY ABOUT US!!</h2>
+                    <p class="mx-5  px-lg-5"> Est voluptatem occaecati adipisci quo quisquam dolorem delectus. Saepe quia quia cumque. Dolores a nobis ea ea mollitia quo suscipit et. Est sint sed dolor excepturi aut quia. A cumque sed consectetur occaecati et praesentium eaque.</p>
+                </div>
+            </div>
+            <div class="row imge_items ">
+                <div class="col-lg-4  my-2">
+                    <div class="imge-item">
+                        <img class='img-fluid' src="./assets/story/2.jpg" alt="">
+                        <div class='overlay'>
+                            <div class='overlay-content'>
+                                <i class="fal fa-camera-retro"></i>
+                                <div>creativty</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-2">
+                    <div class="imge-item">
+                        <img class='img-fluid' src="./assets/story/img-2.jpg" alt="">
+                        <div class='overlay'>
+                            <div class='overlay-content'>
+                                <i class="fal fa-camera-retro"></i>
+                                <div>creativty</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-2">
+                    <div class="imge-item">
+                        <img class='img-fluid' src="./assets/story/img-3.jpg" alt="">
+                        <div class='overlay'>
+                            <div class='overlay-content'>
+                                <i class="fal fa-camera-retro"></i>
+                                <div>creativty</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter -->
+    <section class="counter headind-mar-top  p-0">
+        <div class="container">
+            <div class=" counter_items  row text-center ">
+                <div class="col-lg border-light border  py-5">
+                    <h1>42</h1>
+                    <h6>WEB DESIGN PROJECTS</h6>
+                </div>
+                <div class="col-lg border-light border  py-5">
+                    <h1>123</h1>
+                    <h6>HAPPY CLIENT</h6>
+
+                </div>
+                <div class="col-lg border-light border  py-5">
+                    <h1>15</h1>
+                    <h6>AWARD WINNER</h6>
+
+                </div>
+                <div class="col-lg border-light border  py-5">
+                    <h1>99</h1>
+                    <h6>CUP OF COFFEE</h6>
+
+                </div>
+                <div class="col-lg border-light border  py-5">
+                    <h1>24</h1>
+                    <h6>MEMBERS</h6>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="services headind-mar-top section_border">
+        <div class="container">
+            <div class="about_us_holder text-center ">
+                <h4>Creative Template</h4>
+                <h2 class="after_h2 my-3 fw-bold">Amazing service!</h2>
+            </div>
+
+            <div class="servise_items">
+                <div class="row r1 pb-4">
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 mx-2"></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            PHOTOGRAPHY</h3>   </div>
+                            <p class="px-5">Photography is the science, art and practice of creating durable images by recording light or other electromagnetic radiation</p>
+                     
+                    </div>
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 "></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            WEB DESIGN</h3>   </div>
+                            <p class="px-5">Web design encompasses many different skills and disciplines in the production and maintenance of websites.</p>
+                     
+                    </div>
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 "></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            CREATIVITY</h3>   </div>
+                            <p class="px-5">Creativity is a phenomenon whereby something new and somehow valuable is formed. The created item may be intangible or a physical object.</p>
+                     
+                    </div>
+                </div>
+                <!-- row 2 -->
+                <div class="row r2 pt-4 border-top">
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 mx-2"></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            SEO</h3>   </div>
+                            <p class="px-5">Search engine optimization (SEO) is the process of affecting the visibility of a website or a web page in a web search engine's unpaid results.</p>
+                     
+                    </div>
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 mx-2"></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            
+CSS/HTML</h3>   </div>
+                            <p class="px-5">HyperText Markup Language, commonly abbreviated as HTML, is the standard markup language used to create web pages.</p>
+                     
+                    </div>
+                    <div class="col-lg-4 item ">
+                    
+                        <div class="d-flex">
+                            <div class="servise-icon ">
+                                <i class="bi bi-flower1 mx-2"></i>
+                            </div>
+                            <h3 class="servise_header pt-2
+                            ">
+                            DIGITAL</h3>   </div>
+                            <p class="px-5">With digital signals, system noise, provided it is not too great, will not change the quantification whereas with signals handled using analog processing.</p>
+                     
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- img -->
+    <section class=" about_us unique__design my-5 d-flex flex-column align-items-center position-relative">
+        <div class=" py-5 d-flex align-items-center flex-column ">
+            <h4 class="unique_h4 text-center text-capitalize fs-3 mt-3 ">for all devices</h4>
+            <h2 class=" unique_h2  position-relative text-center te text-capitalize  fs-2 fw-bolder about_us_h2 position-relative pb-3">Unique Design
+            </h2>
+
+        </div>
+        <figure class="unique__img  d-flex justify-content-center m-0 d-none d-lg-block"><img src="./assets/unique-design/img-1.png" alt="">
+        </figure>
+        <figure class="position-absolute unique_secondary_img d-none d-lg-block"><img src="./assets/unique-design/img-2.png " alt="">
+        </figure>
+    </section>
+
+    <!--   -->
+    </section>
+    <section class="d-lg-none my-5 ">
+        <figure class="mx-auto">
+            <img class="mx-auto w-100" src="./assets/display bg 768x1024.png" alt="">
+        </figure>
+    </section>
+
+    <!-- ocordion -->
+    <!-- services -->
+    <section class="about_us container pb-5 my-5 py-5 d-none d-lg-block">
+        <div class="services d-flex align-items-center flex-column about_us_header ">
+            <div class="about_us_holder text-center ">
+                <h4>We Work With</h4>
+                <h2 class="after_h2 my-3 fw-bold">ًWHAT WE DO</h2>
+                <p class="mx-5 mb-5  px-lg-5"> Est voluptatem occaecati adipisci quo quisquam dolorem delectus. Saepe quia quia cumque. Dolores a nobis ea ea mollitia quo suscipit et. Est sint sed dolor excepturi aut quia. A cumque sed consectetur occaecati et praesentium eaque.</p>
+            </div>
+        </div>
+        <div class=" row">
+
+            <figure class="  d-none d-xl-block col pb-5 p-0 mx-5"><img class="w-100" src="./assets/ocors.jpg" alt=""></figure>
+            <div class="  d-none d-xl-block col">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h3 class="accordion-header accordion__header " id="headingOne">
+                            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                             
+                            <i class="bi bi-camera-fill px-2 occ__icon"></i>
+                          Creativity
+                        </button>
+                        </h3>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body overflow-scroll accordion__item">
+
+                                quinoa nesciunt laborum eiusmod. enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                of them accusamus labore
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header accordion__header" id="headingTwo">
+                            <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="bi bi-emoji-dizzy-fill px-2 occ__icon"></i>
+                            photography
+                        </button>
+                        </h3>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body overflow-scroll accordion__item">
+
+                                enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee
+                                nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim
+                                aesthetic synth nesciunt you probably haven't heard of them accusamus labore Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard
+                                dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                                wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h3 class="accordion-header accordion__header" id="headingThree">
+                            <button class="accordion-button collapsed occ__button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="bi bi-display px-2 occ__icon"></i>
+                             seo
+
+                        </button>
+                        </h3>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body overflow-scroll accordion__item">
+
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft
+                                beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+                                aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh
+                                helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard
+                                of them accusamus labore
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- slider -->
+    <section class=" d-none d-lg-block slider text-muted">
+        <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active row ">
+
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Jon Doe</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Jon Doe</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item row">
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Jon Doe</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon mx-5" aria-hidden="true"></span>
+                    <span class="visually-hidden mx-5 ">Previous</span>
+                </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+
+
+
+    <!-- overlay -->
+    <section class="about_us headind-mar-top section_border d-none d-lg-block">
+        <div class="container">
+            <div class="about_us_holder text-center ">
+                <h4>Creative Template</h4>
+                <h2 class="after_h2 my-3 fw-bold">Meet Our Team</h2>
+                <p>Saepe blanditiis quia repudiandae natus expedita quia. Ipsum delectus qui animi ea saepe qui qui. Voluptatem sint hic eum dolores. Eveniet occaecati odio est consequatur sed laboriosam perspiciatis odit.</p>
+            </div>
+            <div class="row">
+                <div class="row imge_items text-center ">
+                    <div class="col-4">
+                        <div class="imge-item2">
+                            <img class='inner_imge img-fluid' src="./assets/our-team/img-1.jpg" alt="">
+                            <div class='overlay2'>
+                                <div class='overlay-content2'>
+                                    <span>
+                                        <i class="bi bi-google"></i>
+                                        <i class="bi bi-telegram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-linkedin"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_us_item_contant">
+                            <h5 class=" mt-3 text-muted"> MATTHEW DIX</h5>
+                            <p>Graphic Design</p>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="imge-item2">
+                            <img class='inner_imge img-fluid' src="./assets/our-team/img-2.jpg" alt="">
+                            <div class='overlay2'>
+                                <div class='overlay-content2'>
+                                    <span>
+                                        <i class="bi bi-google"></i>
+                                        <i class="bi bi-telegram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-linkedin"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_us_item_contant">
+                            <h5 class=" mt-3 text-muted">CHRISTOPHER CAMPBELL</h5>
+                            <p>Branding/UX design</p>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <div class="imge-item2">
+                            <img class='inner_imge img-fluid' src="./assets/our-team/img-3.jpg" alt="">
+                            <div class='overlay2'>
+                                <div class='overlay-content2'>
+                                    <span>
+                                        <i class="bi bi-google"></i>
+                                        <i class="bi bi-telegram"></i>
+                                        <i class="bi bi-facebook"></i>
+                                        <i class="bi bi-linkedin"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_us_item_contant">
+                            <h5 class=" mt-3 text-muted">MICHAEL FERTIG</h5>
+                            <p>Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- logos sec -->
+    <div class="logos  d-none d-lg-block py-5 my-5">
+        <div class="container">
+            <div class="row">
+                <figure class="col">
+                    <img src="./assets/brand/img-1.png" alt="">
+                </figure>
+                <figure class="col">
+                    <img src="./assets/brand/img-2.png" alt="">
+                </figure>
+                <figure class="col">
+                    <img src="./assets/brand/img-3.png" alt="">
+                </figure>
+                <figure class="col">
+                    <img src="./assets/brand/img-4.png" alt="">
+                </figure>
+                <figure class="col">
+                    <img src="assets/brand/img-5.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+ 
+    <!--some of our work  -->
+    <section class="our__work py-5">
+        <div class="text-center"> 
+          <h4 class=" mx-auto">What we do</h4>
+            <h2 class="our__work__header ">SOME OF OUR WORK</h2>
+            <p class="text-center py-5 text-muted ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <div class="row g-0">
+                <div class="row mx-auto col-lg-6 g-0">
+                    <img src="./assets/img-1.jpg" alt="" class="col-md-6" />
+                    <img src="./assets/img-2.jpg" alt="" class="col-md-6" />
+                    <img src="./assets/img-5.jpg" alt="" class="col-md-6" />
+                    <img src="./assets/img-6.jpg" alt="" class="col-md-6" />
+                </div>
+                <div class="row mx-auto col-lg-6 g-0">
+                    <div class="col-md-6">
+                        <img src="./assets/img-3.jpg" alt="" />
+                    </div>
+                    <div class="col-md-6">
+                        <img src="./assets/img-4.jpg" alt="" />
+                        <img src="./assets/img-7.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- second-slider -->
+    <section class=" d-none d-lg-block slider text-muted">
+        <div class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner ">
+                <div class="carousel-item active row ">
+
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Joshua Earle</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item ">
+
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Joshua Earle</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="carousel-item row">
+                    <div class="item">
+                        <blockquote>
+                            <div class="row">
+                                <div class="col-sm-3 text-center">
+                                    <i class="bi bi-card-image sliderIcon"></i>
+                                </div>
+                                <div class="col-sm-12 col-xl-8 ">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.
+                                    </p>
+                                    <p class="d-flex"><span class="Quote__author position-relative text-muted"> Joshua Earle</span></p>
+                                </div>
+                            </div>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#second__carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden ">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#second__carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </section>
+    <!-- map  -->
+    <section class="map  flex-column  align-items-center text-danger d-none d-lg-flex ">
+        <p class="pt-5">
+            <i class="fas fa-map-marker-alt fa-2x "></i>
+        </p>
+        <h2 class="position-relative pb-5">OPEN MAP</h2>
+    </section>
+
+
+
+    <!--happy_clients  -->
+    <section class="happy_clients headind-mar-top section_border">
+        <div class="container">
+            <div class="happy_clients_holder text-center py-5 ">
+                <h4>Creative Template</h4>
+                <h2 class=" my-3 fw-bold x ">happy_clients!</h2>
+            </div>
+            <!-- items -->
+            <div class="happy_clients_items row justify-content-center ">
+                <div class="row  mb-5">
+                    <div class="col-md-6 mb-3 ">
+                        <div class="row  item ">
+                            <div class=" col-md-6  happy_clients_img ">
+                                <img class="img-circle" src="./assets/client (1).jpg" alt="">
+                            </div>
+                            <div class="col-md-6 info">
+                                <h3 class="fw-bold">JAELYNN CASTILLO</h3>
+                                <span class="redx">Graphic Design</span>
+                                <p>
+                                    Praesentium molestiae necessitatibus aut reprehenderit enim quia asperiores neque debitis. Quibusdam quia a dolores perferendis iusto. Velit autem blanditiis placeat. Laudantium doloremque .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row  item ">
+                            <div class=" col-md-3   happy_clients_img ">
+                                <img class="img-circle" src="./assets/client (2).jpg" alt="">
+                            </div>
+                            <div class="col-md-9 info">
+                                <h3 class="fw-bold">Matthew Dix</h3>
+                                <span class="redx">Graphic Design</span>
+                                <p>
+                                    Praesentium molestiae necessitatibus aut reprehenderit enim quia asperiores neque debitis. Quibusdam quia a dolores perferendis iusto. Velit autem blanditiis placeat. Laudantium doloremque .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row r2">
+                    <div class="col-md-6 ">
+                        <div class="row  item ">
+                            <div class=" col-md-3   happy_clients_img ">
+                                <img class="img-circle" src="./assets/peop4.png" alt="">
+                            </div>
+                            <div class="col-md-9 info">
+                                <h3 class="fw-bold">Matthew Dix</h3>
+                                <span class="  redx">Graphic Design</span>
+                                <p>
+                                    Praesentium molestiae necessitatibus aut reprehenderit enim quia asperiores neque debitis. Quibusdam quia a dolores perferendis iusto. Velit autem blanditiis placeat. Laudantium doloremque .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="row  item ">
+                            <div class=" col-md-3   happy_clients_img ">
+                                <img class="img-circle" src="./assets/peop4.png" alt="">
+                            </div>
+                            <div class="col-md-9 info">
+                                <h3 class="fw-bold">MIKE PETRUCCI</h3>
+                                <span class="redx">Graphic Design</span>
+                                <p>
+                                    Praesentium molestiae necessitatibus aut reprehenderit enim quia asperiores neque debitis. Quibusdam quia a dolores perferendis iusto. Velit autem blanditiis placeat. Laudantium doloremque .
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!--footer-->
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-lg-4 col-12">
+            <h2 class="mogo__footer text-muted my-3 text-start">MoGo</h2>
+           
+            <p class="brder-bottom text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="border-bottom"><span class="fw-bold fs-2 text-dark ">15k</span>
+                followers</p><p class="my-2 fs-2"> <span>follow us : </span> <i class="bi bi-facebook footer__icon fs-2"></i<i class="bi bi-file-person-fill footer__icon fs-2"></i><i class="bi bi-info-circle-fill mx-2 footer__icon fs-2"></i><i class="bi bi-linkedin footer__icon fs-2"></i><i class="bi bi-mastodon mx-2 footer__icon fs-2"><i class="bi bi-messenger mx-2 footer__icon fs-2"></i></i></p> 
+            <form action=""><input type="text" placeholder="YOUR EMAIL" class="p-3 "><button class="footer__button p-3 text-light rounded">SUBSCRIBE</button></form>
+            </div>
+        <div class="col-lg-4 col-12 ">
+          
+       BLOGS  <div class="row">
+            <figure class="col-4 my-4"><img src="assets/blog1.png" class=" w-100" alt=""></figure><p class="col-8 pt-4 text-dark fw-bold">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
+             <span class="d-block fw-normal"> Jan 9, 2016</span>  </p></div>
+             <div class="row">
+                <figure class="col-4 my-4"><img src="assets/blog2.png" class=" w-100" alt=""></figure><p class="col-8 pt-4 text-dark fw-bold">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
+                 <span class="d-block fw-normal"> Jan 9, 2016</span>  </p></div>
+                 <div class="row">
+                    <figure class="col-4 my-4"><img src="assets/blog3.png" class=" w-100" alt=""></figure><p class="col-8 pt-4 text-dark fw-bold">LOREM IPSUM DOLOR SIT AMET, CONSECTETUR ADIPISCING
+                     <span class="d-block fw-normal"> Jan 9, 2016</span>  </p></div>
+        </div>  
+        
+        
+        
+        <div class="col-12 col-lg-4 "> <div class="row"><div class="col-4 p-0 m-0"><img src="assets/instagram/img-7.jpg" alt=""></div> <div class="col-4 p-0 m-0"><img src="assets/instagram/img-8.jpg" alt=""></div><div class="col-4 p-0 m-0"><img src="assets/instagram/img-9.jpg" alt=""></div>
+    
+        <figure class="col-4 p-0 m-0"><img src="assets/instagram/img-1.jpg" alt=""></figure> <figure class="col-4 p-0 m-0"><img src="assets/instagram/img-2.jpg" alt=""></figure><figure class="col-4 p-0 m-0"><img src="assets/instagram/img-3.jpg" alt=""></figure>
+        <figure class="col-4 p-0 m-0"><img src="assets/instagram/img-4.jpg" alt=""></figure> <figure class="col-4 p-0 m-0"><img src="assets/instagram/img-5.jpg" alt=""></figure><figure class="col-4 p-0 m-0"><img src="assets/instagram/img-6.jpg" alt=""></figure>
+  <span class="text-muted d-block pt-3">View more photos</span>  </div></div>
+</div>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+
+</body>
+
+</html>
